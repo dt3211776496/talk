@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const title = "yips无存储聊天室",
   description =
-    "无存储聊天室，不会存储您的聊天数据";
+    "yips聊天室无存储";
 
 export const metadata: Metadata = {
   title,
