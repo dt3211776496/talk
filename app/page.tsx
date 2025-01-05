@@ -15,7 +15,7 @@ export async function generateMetadata({
   const roomLabel = getRoomLabel(roomId);
 
   return {
-    title: `${roomLabel} | AnyCable Next.js Demo`,
+    title: `${roomLabel} | yips无存储聊天室`,
     openGraph: {
       images: [
         {
