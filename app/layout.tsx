@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title,
     description,
-    locale: "en_US",
+    locale: "zh_CN",
     type: "website",
   },
 };
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="zh">
       <head>
         <meta name="viewport" content="width=device-width" />
         <link
