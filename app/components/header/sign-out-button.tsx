@@ -16,7 +16,7 @@ function SubmitButton() {
 
   return (
     <Button size="sm" disabled={pending}>
-      Sign out
+      退出
     </Button>
   );
 }
