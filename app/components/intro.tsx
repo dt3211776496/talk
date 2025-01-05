@@ -6,25 +6,25 @@ import { Button } from "./button";
 
 const features = [
   {
-    name: "Toggle offline",
-    description: "mode in user settings and see how network restoration works",
+    name: "离线切换",
+    description: "在用户设置中进入模式，查看网络恢复的工作原理",
     icon: HeroiconsBoltSlash,
   },
   {
-    name: "Share this chat",
-    description: "with friends to understand how fast things really are",
+    name: "分享此聊天",
+    description: "和朋友一起了解事情到底有多快",
     icon: HeroiconsLink,
   },
   {
-    name: "See sources",
+    name: "查看来源",
     description: (
       <>
-        on{" "}
+        在{" "}
         <a
           className="text-red-700 underline hover:no-underline"
-          href="https://github.com/anycable/vercel-anycable-demo"
+          href="https://www.iyips.cn"
         >
-          GitHub
+          yips 
         </a>
       </>
     ),
@@ -84,7 +84,7 @@ export function Intro({
                   as="h3"
                   className="text-center text-base font-semibold leading-6 text-gray-900"
                 >
-                  Welcome to AnyCable serverless demo!
+                 欢迎使用yips无存储聊天室!
                 </Dialog.Title>
                 <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-4 text-sm leading-7 text-gray-600">
                   {features.map((feature) => (
@@ -101,7 +101,7 @@ export function Intro({
                   ))}
                 </dl>
                 <div className="flex justify-center" ref={btn}>
-                  <Button onClick={close}>Understood</Button>
+                  <Button onClick={close}>明白了</Button>
                 </div>
               </Dialog.Panel>
             </Transition.Child>
