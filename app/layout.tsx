@@ -7,7 +7,8 @@ import { cx } from "class-variance-authority";
 const inter = Inter({ subsets: ["latin"] });
 
 const title = "yips无存储聊天室",
-  description =    "yips聊天室无存储";
+  description =
+    ".................................................";
 
 export const metadata: Metadata = {
   title,
