@@ -49,10 +49,10 @@ export default async function AuthPage({
             <h1 className="mb-4 text-center text-2xl font-semibold text-balance">
               欢迎使用yips无存储聊天室!
             </h1>
-            <p className="text-sm">
-              加入房间前请设置用户名。你可以输入
-              你的QQ号码!
-            </p>
+              <p className="text-sm">
+                在加入房间之前，请先设置一个用户名。你也可以输入你的邮箱，
+                以便在你的消息旁边看到你的 Gravatar 头像!
+              </p>
           </div>
           <AuthForm action={login} />
         </div>
