@@ -9,31 +9,31 @@ const messages = [
   {
     id: "1",
     username: $user.get().username,
-    body: "Hey, how are you?",
+    body: "你好",
     createdAt: "2022-01-01T12:00:00Z",
   },
   {
     id: "2",
-    username: "mary read",
-    body: "I am doing well, thanks for asking! When people ask such questions, I feel very welcomed!",
+    username: "774",
+    body: "这个聊天室什么都能发送？没有限制？",
     createdAt: "2022-01-01T12:05:00Z",
   },
   {
     id: "3",
     username: $user.get().username,
-    body: "That is great to hear!",
+    body: "是的 这个聊天室不会存储数据",
     createdAt: "2022-01-01T12:10:00Z",
   },
   {
     id: "4",
     username: $user.get().username,
-    body: "What's you up into these days?",
+    body: "并且还是免费的",
     createdAt: "2022-01-01T12:15:00Z",
   },
   {
     id: "5",
-    username: "mary read",
-    body: "Some real-time stuff",
+    username: "774",
+    body: "好啊 哈哈哈哈哈哈",
     createdAt: "2022-01-01T12:20:00Z",
   },
 ];
