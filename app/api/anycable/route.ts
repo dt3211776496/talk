@@ -12,7 +12,7 @@ export async function POST(request: Request) {
     console.error(e);
     return NextResponse.json({
       status: Status.ERROR,
-      error_msg: "Server error",
+      error_msg: "服务器错误",
     });
   }
 }
