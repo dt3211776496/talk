@@ -15,6 +15,6 @@ export async function POST(request: Request) {
     return NextResponse.json(data, { status: 200 });
   } catch (e) {
     console.log(e);
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    return NextResponse.json({ error: "未经授权" }, { status: 401 });
   }
 }
