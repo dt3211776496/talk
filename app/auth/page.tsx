@@ -50,8 +50,8 @@ export default async function AuthPage({
               欢迎使用yips无存储聊天室!
             </h1>
             <p className="text-sm">
-               在加入聊天室之前，请设置一个用户名。您也可以输入
-              您的qq号码，以便查看您的消息！
+              加入房间前请设置用户名。你可以输入
+              你的QQ号码!
             </p>
           </div>
           <AuthForm action={login} />
