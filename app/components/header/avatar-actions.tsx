@@ -59,7 +59,7 @@ function SignOutButton() {
 
   return (
     <Menu.InteractiveItem as="button" disabled={pending}>
-      {pending ? "Signing out…" : "Sign out"}
+      {pending ? "退出中…" : "退出"}
     </Menu.InteractiveItem>
   );
 }
