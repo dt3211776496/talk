@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const title = "yips无存储聊天室",
   description =
-    ".................................................";
+    "Next.js messaging application using AnyCable as a real-time server and deployed on Vercel";
 
 export const metadata: Metadata = {
   title,
