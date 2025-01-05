@@ -18,7 +18,7 @@ export function RoomActions({ newRoomId }: { newRoomId: string }) {
         </Menu.ItemRoot>
         <Menu.ItemRoot>
           <Menu.InteractiveItem as="a" href={`/?roomId=${newRoomId}`}>
-            New room
+           新房间
           </Menu.InteractiveItem>
         </Menu.ItemRoot>
       </Menu.Body>
