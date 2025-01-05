@@ -47,11 +47,11 @@ export default async function AuthPage({
           </div>
           <div className="my-10">
             <h1 className="mb-4 text-center text-2xl font-semibold text-balance">
-              Welcome to AnyCable demo!
+              欢迎使用yips无存储聊天室!
             </h1>
             <p className="text-sm">
-              Before joining a room please set up a username. You can also enter
-              your email to see your Gravatar near your messages!
+           在加入聊天室之前，请设置一个用户名。您也可以输入
+              您的qq号码，以便查看您的消息！
             </p>
           </div>
           <AuthForm action={login} />
