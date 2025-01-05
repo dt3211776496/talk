@@ -24,7 +24,7 @@ const features = [
           className="text-red-700 underline hover:no-underline"
           href="https://www.iyips.cn"
         >
-          yips
+        yips
         </a>
       </>
     ),
