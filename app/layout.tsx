@@ -6,7 +6,7 @@ import { cx } from "class-variance-authority";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const title = "yips无存储聊天室",
+const title = "yips Next.js 聊天室",
   description =
     "Next.js messaging application using AnyCable as a real-time server and deployed on Vercel";
 
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title,
     description,
-    locale: "zh_CN",
+    locale: "en_US",
     type: "website",
   },
 };
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="zh">
+    <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width" />
         <link
