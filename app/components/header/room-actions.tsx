@@ -13,7 +13,7 @@ export function RoomActions({ newRoomId }: { newRoomId: string }) {
       <Menu.Body align="left">
         <Menu.ItemRoot>
           <Menu.InteractiveItem as="button" onClick={copyToClipboard}>
-            Copy URL
+            复制链接
           </Menu.InteractiveItem>
         </Menu.ItemRoot>
         <Menu.ItemRoot>
