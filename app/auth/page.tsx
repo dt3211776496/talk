@@ -49,7 +49,7 @@ export default async function AuthPage({
             <h1 className="mb-4 text-center text-2xl font-semibold text-balance">
               欢迎使用yips无存储聊天室!
             </h1>
-              <p className="text-sm">
+            <p className="text-sm">
               Before joining a room please set up a username. You can also enter
               your email to see your Gravatar near your messages!
             </p>
