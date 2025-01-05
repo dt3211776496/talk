@@ -25,7 +25,7 @@ export const NewMessageForm = () => {
     >
       <div className="flex-grow">
         <label htmlFor="message" className="sr-only">
-          Message
+          消息
         </label>
         <input
           id="message"
@@ -37,7 +37,7 @@ export const NewMessageForm = () => {
         />
       </div>
 
-      <Button disabled={submitDisabled}>Send</Button>
+      <Button disabled={submitDisabled}>发送</Button>
     </form>
   );
 };
