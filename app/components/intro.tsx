@@ -24,7 +24,7 @@ const features = [
           className="text-red-700 underline hover:no-underline"
           href="https://www.iyips.cn"
         >
-          yips 
+          yips
         </a>
       </>
     ),
@@ -84,7 +84,7 @@ export function Intro({
                   as="h3"
                   className="text-center text-base font-semibold leading-6 text-gray-900"
                 >
-                 欢迎使用yips无存储聊天室!
+                欢迎使用yips无存储聊天室!
                 </Dialog.Title>
                 <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-4 text-sm leading-7 text-gray-600">
                   {features.map((feature) => (
