@@ -50,8 +50,7 @@ export default async function AuthPage({
               Welcome to yips chat!
             </h1>
             <p className="text-sm">
-              Before joining a room please set up a username. You can also enter
-              your email to see your Gravatar near your messages!
+              无存储聊天
             </p>
           </div>
           <AuthForm action={login} />
