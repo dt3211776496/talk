@@ -6,9 +6,9 @@ import { cx } from "class-variance-authority";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const title = "yips Next.js 聊天室",
+const title = "yips 聊天室",
   description =
-    "Next.js messaging application using AnyCable as a real-time server and deployed on Vercel";
+    "无存储聊天";
 
 export const metadata: Metadata = {
   title,
